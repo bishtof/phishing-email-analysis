@@ -109,7 +109,3 @@ El principal riesgo de este correo no reside en su infraestructura técnica —r
 ## 👤 Autor
 
 Sebastian | Cybersecurity Student
-
-## Autor
-
-Sebastian | Cybersecurity Student
