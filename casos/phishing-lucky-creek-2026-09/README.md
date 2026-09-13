@@ -1,4 +1,4 @@
-a# Caso: Spam/Phishing "Lucky Creek Casino" — SPF-as-a-Service + Red de Afiliados CPA
+# Caso: Spam/Phishing "Lucky Creek Casino" — SPF-as-a-Service + Red de Afiliados CPA
 
 **Analista:** SpainCheck Pro
 **Fecha de detección:** 13 de septiembre de 2026
