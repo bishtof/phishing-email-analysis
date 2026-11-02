@@ -10,6 +10,8 @@ Cada caso sigue el mismo proceso: detección en bandeja de Spam → análisis de
 
 | Caso | Fecha | Vector | Hallazgo principal |
 |---|---|---|---|
+| [ArterioFlush](casos/phishing-arterioflush-2026-10/README.md) | Oct 2026 | Email spoofed (CBS News / Dr. Oz) → suplemento falso | CNAME erróneo en comcast.net que da PTR de Comcast a un pool de ~30 IPs; redirector en Google Storage tras reCAPTCHA |
+| [Suplemento masculino](casos/spam-suplemento-masculino-2026-09/README.md) | Sep 2026 | Spam de afiliación de suplementos | Reply-To en subdominio .edu abusado y plantilla de relleno compartida con Lucky Creek |
 | [Lucky Creek Casino](casos/phishing-lucky-creek-2026-09/README.md) | Sep 2026 | Email spoofed → casino falso | Cadena de 5 saltos con SPF-as-a-Service (Valimail) y monetización vía red de afiliados CPA |
 | [Magic Win](casos/phishing-magic-win-2026-08/README.md) | Ago 2026 | Email spoofed → casino falso | Clúster de 7 dominios sobre Leaseweb/OVH/Rumanía con kit de "domain aging" reutilizable |
 | [Scareware almacenamiento en la nube](casos/phishing-scareware-cloud-storage-2026-08/README.md) | Ago 2026 | Alerta falsa de "archivos eliminándose" | DKIM válido pero DMARC en fallo por desalineación de dominio; ingeniería social basada en pánico |
