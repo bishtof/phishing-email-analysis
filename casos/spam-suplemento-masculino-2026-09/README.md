@@ -23,7 +23,7 @@ No se trata de un ataque dirigido: es una campaña de **spam de afiliación de s
 | Fecha de creación | 13/09/2026, 12:31 (hora del servidor emisor) |
 | Fecha de entrega | Entregado en 541 segundos (~9 minutos) |
 | De (visible) | `"'Get Your Fire Back'" <fqesupportmyyk@jxicsmlmfhbecezxfljwjfwe.com>` |
-| Para | sebastianbish@gmail.com |
+| Para | [correo-receptor-redactado] |
 | Asunto | Most men are missing these 7 |
 | Reply-To | `reply@dfmhr.88offic.uic.edu` |
 | Return-Path (SMTP MAIL FROM) | `Return@k3wnykip71njocbw-hjofazhubfe.leasterianism.me.uk` |
@@ -49,7 +49,7 @@ No se trata de un ataque dirigido: es una campaña de **spam de afiliación de s
 
 ### 4.1 Delegación de remitente ("Sender Delegation")
 
-Gmail marca la cabecera con `X-Google-Sender-Delegation: sebastianbish@gmail.com Trusted Sender`. Esto **no** significa que el destinatario haya enviado el correo: es un artefacto de cómo Gmail procesa ciertos encabezados de remitente delegado cuando el "From" visible no coincide con el dominio autenticado — Gmail intenta asociar el mensaje a una identidad reconocible en lugar de mostrar el dominio técnico real, lo cual, paradójicamente, puede hacer que el mensaje parezca más confiable de lo que es.
+Gmail marca la cabecera con `X-Google-Sender-Delegation: [redactado] Trusted Sender`. Esto **no** significa que el destinatario haya enviado el correo: es un artefacto de cómo Gmail procesa ciertos encabezados de remitente delegado cuando el "From" visible no coincide con el dominio autenticado — Gmail intenta asociar el mensaje a una identidad reconocible en lugar de mostrar el dominio técnico real, lo cual, paradójicamente, puede hacer que el mensaje parezca más confiable de lo que es.
 
 ### 4.2 Tres dominios, tres roles, cero relación de marca
 
@@ -68,7 +68,7 @@ La IP `107.155.68.163` resuelve por rDNS a `107-155-68-163.static.hvvc.us`, pert
 ## 5. Análisis del enlace de destino
 
 ```
-https://storage.googleapis.com/jhiugiiiiiiiiiii/INTLsend.html#/redirect.html?od=1syr6aa6cda39ae92_vl_Salesvl_1nq4.ujzsvi.C0000rk1ka42upo00v_x12150.k1ka4MGl5cjZyLTFscG1oNTM0c1snQ
+https://storage.googleapis.com/jhiugiiiiiiiiiii/INTLsend.html#/redirect.html?od=[token-redactado]
 ```
 
 - Mismo patrón de evasión que los casos Cheeky Wins, Magic Win y Lucky Creek de este repositorio: alojamiento en `storage.googleapis.com` (Google Cloud Storage) para heredar la reputación de dominio confiable de Google y evadir filtros de reputación/DNSBL, mientras el contenido real del bucket está bajo control del operador de la campaña.
